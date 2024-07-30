@@ -2,10 +2,11 @@
   "expo": {
     "name": "Glitch",
     "slug": "Glitch",
+    
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "glitch",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
