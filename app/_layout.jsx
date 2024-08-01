@@ -34,9 +34,9 @@ if(!loaded && !error) return null;
   return(
    
     <Stack>
-      <Stack.Screen name="header" />
+    
       <Stack.Screen name="main" options={{headerShown:false}} />
-      <Stack.Screen name="footer" />
+      
     </Stack>
   )
      
