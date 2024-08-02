@@ -1,50 +1,102 @@
-# Welcome to your Expo app 👋
+# Glitch
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Glitch** is a mobile application designed for gamers to share and discover tips and tricks for their favorite games. Built with **React Native** for cross-platform mobile development, styled with **NativeWind**, and powered by **Appwrite** as the backend service.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **User Authentication:** Secure user sign-up and login using Appwrite.
+- **Game Tips Sharing:** Users can post tips and tricks for various games.
+- **Community Interaction:** Like and comment on tips shared by others.
+- **Search Functionality:** Easily find tips for specific games.
+- **User Profiles:** View and manage user profiles and their shared tips.
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- **Frontend:** React Native, NativeWind
+- **Backend:** Appwrite
+- **Database:** Appwrite Database
+- **Authentication:** Appwrite Auth
 
-   ```bash
-    npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
+To get a local copy up and running, follow these steps:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Node.js and npm installed
+- Appwrite server set up
+- Android/iOS emulator or a physical device
 
-## Get a fresh project
-
-When you're ready, run:
+### Clone the Repository
 
 ```bash
-npm run reset-project
+git clone https://github.com/yourusername/glitch.git
+cd glitch
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Install Dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Set Up Environment Variables
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Create a `.env` file in the root of your project and add your Appwrite credentials:
 
-## Join the community
+```
+APPWRITE_ENDPOINT=<your-appwrite-endpoint>
+APPWRITE_PROJECT=<your-appwrite-project-id>
+APPWRITE_API_KEY=<your-appwrite-api-key>
+```
 
-Join our community of developers creating universal apps.
+### Run the App
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+To start the development server, run:
+
+```bash
+npm start
+```
+
+For Android:
+
+```bash
+npm run android
+```
+
+For iOS:
+
+```bash
+npm run ios
+```
+
+## Usage
+
+1. **Sign Up/Login:** Users can create an account or log in with their existing credentials.
+2. **Post Tips:** Share tips and tricks for games.
+3. **Browse Tips:** Explore tips shared by others and engage with the community.
+4. **Search:** Use the search bar to find specific game tips.
+5. **Profile Management:** Update personal information and manage shared tips.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes.
+4. Push the branch to your forked repository.
+5. Create a pull request to the main repository.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, please reach out:
+
+- Email: clubullas@gmail.com
+- GitHub: [ullaslgd](https://github.com/ullaslgd)
+
+
