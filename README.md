@@ -1,5 +1,5 @@
 
-# Glitch 🎮
+# Glitch 🎮(dropped )
 
 **Glitch** is a mobile application designed for gamers to share and discover tips and tricks for their favorite games. Built with **React Native** for cross-platform mobile development, styled with **NativeWind**, and powered by **Appwrite** as the backend service.
 
